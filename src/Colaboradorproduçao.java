@@ -13,7 +13,7 @@ public class Colaboradorproduçao  extends Colaboradores {
     @Override
     public Double calcularSalarioFinal() {
         Double salarioFinal = super.calcularSalarioFinal() + (valorProdução * percentualProdução);
-        return salarioFinal;
+        return salarioFinal ;
     }
      @Override 
         public void exibirDados() {
@@ -21,5 +21,7 @@ public class Colaboradorproduçao  extends Colaboradores {
             System.out.println("Tipo de colaborador:" + "Produçao");
             System.out.println("Valor de Produção: R$" + valorProdução);
             System.out.println("Percentual de Produção: " + percentualProdução);
-             System.out.println("\n\n\n");
-}
+             
+            
+            }
+        }

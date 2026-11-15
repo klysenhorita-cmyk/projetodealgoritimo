@@ -1,4 +1,4 @@
-import java.util.Scanner; {
+
 
 public class Colaboradorpadrao extends Colaboradores {
 
@@ -14,8 +14,8 @@ public class Colaboradorpadrao extends Colaboradores {
         }
 @Override
 public void exibirDados() {
-    Super.exibirDados();
-    System.out.println("\n\n\n");
+    super.exibirDados();
+    System.out.println("Tipo de colaborador:" + "Padrao");
 }
 
 

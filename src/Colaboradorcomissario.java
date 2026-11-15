@@ -19,7 +19,7 @@ public class Colaboradorcomissario extends Colaboradores {
             System.out.println("Tipo de colaborador:" + "comissário");
             System.out.println("Valor de Vendas: R$" + valorVendas);
             System.out.println("Percentual de Comissão: " + percentualComissão);
-             System.out.println("\n\n\n");
+            
         }
     }
 

@@ -1,6 +1,8 @@
 
 
 public class Principal {
+   
+   
     public static void main(String[] args) {
 
         Colaboradores colaboradorpadrao = new Colaboradores();
@@ -23,7 +25,7 @@ public class Principal {
         Colaboradores colaboradorprodução = new Colaboradorproduçao();
         colaboradorprodução.setNome("ana ");
         colaboradorprodução.setMatricula("456");
-        ((Colaboradorproduçao) colaboradorprodução).setValorProdução(5000.0);
+        ((Colaboradorproduçao) colaboradorprodução).setValorProdução(560.0);
         ((Colaboradorproduçao) colaboradorprodução).setPercentualProdução(0.05);
         Double salarioFinal3 = colaboradorprodução.calcularSalarioFinal();
         colaboradorprodução.setSalarioFinal(salarioFinal3);

@@ -1,16 +1,15 @@
-
-
 public class Principal {
    
    
     public static void main(String[] args) {
 
-        Colaboradores colaboradorpadrao = new Colaboradores();
+        Colaboradores colaboradorpadrao = new  Colaboradorpadrao ();
         colaboradorpadrao.setNome("jose ");
         colaboradorpadrao.setMatricula("145");
         Double salarioFinal1 = colaboradorpadrao.calcularSalarioFinal();
         colaboradorpadrao.setSalarioFinal(salarioFinal1);
         colaboradorpadrao.exibirDados();
+        System.out.println(" --------------------------- ");
      
 
         Colaboradores colaboradorcomissario = new Colaboradorcomissario();
@@ -21,6 +20,7 @@ public class Principal {
         Double salarioFinal2 = colaboradorcomissario.calcularSalarioFinal();
         colaboradorcomissario.setSalarioFinal(salarioFinal2);
         colaboradorcomissario.exibirDados();
+         System.out.println(" --------------------------- ");
         
         Colaboradores colaboradorprodução = new Colaboradorproduçao();
         colaboradorprodução.setNome("ana ");
@@ -30,6 +30,7 @@ public class Principal {
         Double salarioFinal3 = colaboradorprodução.calcularSalarioFinal();
         colaboradorprodução.setSalarioFinal(salarioFinal3);
         colaboradorprodução.exibirDados();
+         System.out.println(" --------------------------- ");
 
 
 

@@ -2,11 +2,6 @@
 
 public class Colaboradorpadrao extends Colaboradores {
 
-        private Double salarioBase;
-
-
-        public Colaboradorpadrao(Double salarioBase) {
-            this.salarioBase = salarioBase;
         }
 
         public Double calcularSalarioFinal() {
@@ -30,4 +25,4 @@ public void exibirDados() {
 
 
 
-}
+
